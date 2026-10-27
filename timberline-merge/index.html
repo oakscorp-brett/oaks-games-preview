@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Timberline Merge</title>
+<meta name="theme-color" content="#1d3b2a">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Timberline">
+<link rel="icon" href="icon.svg"><link rel="apple-touch-icon" href="icon.svg">
+<link rel="stylesheet" href="core.css">
+<link rel="stylesheet" href="game.css">
+</head><body>
+<div id="app">
+  <div id="hud">
+    <button id="hlvl" class="hp"><b id="lvn">1</b><div class="xpb"><div id="xpf"></div></div></button>
+    <button id="hen" class="hp">⚡ <span id="env">100</span><small id="ent"></small></button>
+    <button id="hcoin" class="hp">🪙 <span id="cnv">0</span></button>
+    <button id="hgem" class="hp">💎 <span id="gmv">0</span></button>
+    <button id="hstar" class="hp">⭐ <span id="stv">0</span></button>
+    <button id="setbtn" class="hp ic">⚙️</button>
+  </div>
+  <div id="strip">
+    <button id="dailybtn" class="sb">📅<small>Daily</small></button>
+    <button id="taskbtn" class="sb">📋<small>Tasks</small></button>
+    <button id="passbtn" class="sb">🎖️<small>Trail</small></button>
+    <button id="evbtn" class="sb ev">🍁<small>Event</small></button>
+    <button id="vaultbtn" class="sb">🔐<small>0</small></button>
+    <button id="achbtn" class="sb">🏆<small>Trophy</small></button>
+    <button id="albumbtn" class="sb">📖<small>Album</small></button>
+    <button id="wagonbtn" class="sb">🛻<small id="wgt">Ready</small></button>
+  </div>
+  <div id="scrBoard" class="scr on">
+    <div id="orders"></div>
+    <div id="rbar"></div>
+    <div id="boardWrap"><div id="board"></div></div>
+    <div id="info"></div>
+  </div>
+  <div id="scrTown" class="scr">
+    <div id="town"></div>
+  </div>
+  <div id="nav">
+    <button id="navBoard" class="nb on">🪓<small>Merge</small></button>
+    <button id="navTown" class="nb">🏡<small>Town</small></button>
+    <button id="navShop" class="nb">🛒<small>Shop</small></button>
+  </div>
+</div>
+<script src="core.js"></script>
+<script src="game.js"></script>
+</body></html>
